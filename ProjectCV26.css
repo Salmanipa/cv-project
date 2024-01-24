@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;  /*to remove default margin and padding*/
+}
+body{
+    background-color:rgb(197, 174, 174);
+    color:white;
+    font-family:'Roboto', sans-serif;
+}
+.container{
+    max-width:800px;
+    background-color:rgb(160, 160, 226) ;
+    margin:0 auto;
+
+}
+.profile-image{
+width:100px;
+height:120px;
+border:3px solid white;
+border-radius:50%;
+float:left;
+}
+.header-bio{
+    float:left;
+    padding:30px;
+}
+.header-contact{
+    float:right;
+    padding:30px;
+}
+.header-contact a{
+  text-decoration: none;
+  color:white;
+  font-weight:bold;
+}
+.header-contact a:hover{
+text-decoration:underline;
+color:maroon;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:solid white 3px;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+width:30%;
+float:left;
+}
+.right-div{
+width:70%;
+float:left;
+}
+.common-hr{
+    border:solid white 1px;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+}
+.ref-template-left{
+  float:left;
+  width:45%;
+}
+.ref-template-right{
+    float:right;
+    width:45%;
+  }
+  .bottom-container{
+    background-color: black;
+    text-align:center;
+    padding:10px;
+    
+  }
+  .bottom-container a{
+    color:white;
+    text-decoration: none;
+    margin:20px;
+    
+  }
+  .bottom-container p{
+    color:white;
+    margin-top:20px;
+    
+  }
+  
